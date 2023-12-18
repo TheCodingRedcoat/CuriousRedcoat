@@ -1133,10 +1133,11 @@ p {
   padding-top: 130px;
   padding-bottom: 80px;
   background: var(--primary-color);
-  background-image: url("../images/banner/banner-bg.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.ud-empire-banner {
+  padding-bottom: 82px;
+  background: var(--primary-color);
 }
 
 .ud-banner-content {
@@ -1253,7 +1254,7 @@ p {
 
 /* ====== Blog Details CSS ====== */
 .ud-blog-details {
-  padding-top: 120px;
+  padding-top: 36px;
 }
 
 @media (max-width: 767px) {
@@ -1326,82 +1327,6 @@ p {
   }
 }
 
-.ud-blog-overlay-content .ud-blog-author {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 40px;
-}
-
-@media (max-width: 767px) {
-  .ud-blog-overlay-content .ud-blog-author {
-    margin-right: 0px;
-    margin-bottom: 20px;
-  }
-}
-
-.ud-blog-overlay-content .ud-blog-author img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 15px;
-}
-
-.ud-blog-overlay-content .ud-blog-author span {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 28px;
-  color: #ffffff;
-}
-
-.ud-blog-overlay-content .ud-blog-author a {
-  color: inherit;
-}
-
-.ud-blog-overlay-content .ud-blog-author a:hover {
-  color: var(--primary-color);
-}
-
-.ud-blog-overlay-content .ud-blog-meta {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.ud-blog-overlay-content .ud-blog-meta p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 28px;
-  color: #ffffff;
-  margin-right: 30px;
-}
-
-.ud-blog-overlay-content .ud-blog-meta p:last-child {
-  margin-right: 0px;
-}
-
-.ud-blog-overlay-content .ud-blog-meta p i {
-  font-size: 16px;
-  margin-right: 10px;
-}
-
-.ud-blog-details-content {
-  padding-top: 60px;
-}
-
 @media only screen and (min-width: 1400px) and (max-width: 1920px), only screen and (min-width: 1200px) and (max-width: 1399px) {
   .ud-blog-details-content {
     padding-right: 50px;
@@ -1423,7 +1348,7 @@ p {
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .ud-blog-details-title {
+  .ud-territory-details-title {
     font-size: 30px;
     line-height: 40px;
   }
@@ -1858,6 +1783,11 @@ p {
 }
 
 .ud-banner-ad img {
+  width: 100%;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
   width: 100%;
 }
 
