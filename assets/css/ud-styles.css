@@ -711,21 +711,6 @@ p {
   }
 }
 
-.ud-single-feature .ud-feature-desc {
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 40px;
-}
-
-.ud-single-feature .ud-feature-link {
-  font-weight: 500;
-  color: var(--body-color);
-}
-
-.ud-single-feature .ud-feature-link:hover {
-  color: var(--primary-color);
-}
-
 /* ===== About CSS ===== */
 .ud-about {
   background: #f3f4fe;
