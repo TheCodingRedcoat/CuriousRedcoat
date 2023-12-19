@@ -23,24 +23,6 @@
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/ud-styles.css" />
 
-    <!-- ==== Email Protection ==== -->
-    <style type="text/css">
-      .e-mail:before {
-          content: attr(data-website) "\0040" attr(data-user);
-          unicode-bidi: bidi-override;
-          direction: rtl;
-      }
-    </style>
-
-    <!-- Redirect Mobile-->
-    <script type="text/javascript">
-
-      if (screen.width <= 1000) {
-        document.location='./m/index.html';
-      }
-      
-    </script>
-
   </head>
   <body>
     <!-- ====== Header Start ====== -->
@@ -251,7 +233,11 @@
                        <img width="52px" style="float: left; margin-right: 20px;" src="assets/images/social/Mail.png">
                         <div>
                         <h5>Email</h5>
-                         <h3 class="e-mail" data-user="taocder" data-website="moc.taocdersuoiruc"></h3>
+                        <h3>
+                          <a href="mailto:redcoat@curiousredcoat.com">
+                            redcoat@curiousredcoat.com
+                          </a>
+                        </h3>
                        </div>
                       </div>
                     </div>
