@@ -13,69 +13,28 @@
     <!--====== Favicon Icon ======-->
     <link
       rel="shortcut icon"
-      href="./assets/images/logo/favicon.ico"
+      href="../assets/images/logo/favicon.ico"
       type="image/x-icon"
     />
 
     <!-- ===== All CSS files ===== -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/lineicons.css" />
-    <link rel="stylesheet" href="assets/css/ud-styles.css" />
+    <link rel="stylesheet" href="ud-styles.css" />
 
-    <!-- ===== Redirect Mobile =====-->
-    <script type="text/javascript">
-      if (screen.width <= 699) {
-        document.location = "./m/mobileindex.html";
+    <style>
+      a{
+        text-decoration:none;
       }
-    </script>
+    </style>
 
   </head>
   <body>
-    <!-- ====== Header Start ====== -->
-    <header class="ud-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <nav class="navbar navbar-expand-lg">
-              <a class="navbar-brand" href="index.html">
-                <img width="82px" src="assets/images/logo/WilhelmTransparent.png" alt="Logo" />
-              </a>
-
-              <div class="navbar-collapse">
-                <ul id="nav" class="navbar-nav mx-auto">
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#content">Things I Talk About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#socials">Socials</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="ud-menu-scroll" href="#contact">Contact</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="https://youtube.com/@CuriousRedcoat" target="_blank">YouTube</a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="empire.html ">Empire</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- ====== Header End ====== -->
 
     <!-- ====== Hero Start ====== -->
     <section class="ud-hero" id="home">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
+            <img style="float: right" width="100px" src="../assets/images/logo/WilhelmTransparent.png" alt="Logo" />
             <div class="ud-hero-content wow fadeInUp" data-wow-delay=".2s">
               <h1 class="ud-hero-title">
                 Curious Redcoat
@@ -87,11 +46,6 @@
                 <li>
                   <a href="https://youtube.com/@CuriousRedcoat" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-white-btn">
                     Visit YouTube Channel
-                  </a>
-                </li>
-                <li>
-                  <a href="empire.html" rel="nofollow noopener" target="_blank" class="ud-main-btn ud-grey-btn">
-                    Watch Here Instead
                   </a>
                 </li>
                 <li>
@@ -166,7 +120,7 @@
                   <div class="ud-single-feature wow fadeInUp" data-wow-delay=".1s">
                     <div class="ud-feature-content">
                       <a target="_blank" href="https://youtube.com/@CuriousRedcoat">
-                        <img style="float: left; margin: 12px 15px 15px 0px;" width="32px" src="./assets/images/social/YouTube.png">
+                        <img style="float: left; margin: 12px 15px 15px 0px;" width="32px" src="../assets/images/social/YouTube.png">
                         <h3 class="ud-feature-title">All my videos are on YouTube. I might also have community posts and polls.</h3>
                       </a>
                     </div>
@@ -174,7 +128,7 @@
                   <div class="ud-single-feature wow fadeInUp" data-wow-delay=".15s">
                     <div class="ud-feature-content">
                       <a target="_blank" href="https://x.com/@CuriousRedcoat">
-                        <img style="float: left; margin: 12px 15px 15px 0px;" width="32px" src="./assets/images/social/X.png">
+                        <img style="float: left; margin: 12px 15px 15px 0px;" width="32px" src="../assets/images/social/X.png">
                         <h3 class="ud-feature-title">Sometimes I'll post to my X (formerly Twitter) account.</h3>
                       </a>
                     </div>
@@ -212,11 +166,6 @@
               </div>
             </div>
           </div>
-          <div class="ud-single-feature wow fadeInUp" data-wow-delay=".25s">
-            <div class="ud-feature-content">
-              <img style="float: right; margin: 15px 15px 15px;" width="700vw" height="700vw" src="assets/images/logo/WilhelmTransparent.png"/>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -233,18 +182,18 @@
                  <span>Contact</span>
                  <h2>
                    Let’s talk...
-                 </h2><br><br>
+                 </h2><br>
                  <div class="ud-contact-info-wrapper">
                    <div class="ud-single-info">
                      <div class="ud-info-meta">
-                       <img width="52px" style="float: left; margin-right: 20px;" src="assets/images/social/Mail.png">
+                       <img width="36px" style="float: left; margin-right: 20px;" src="../assets/images/social/Mail.png">
                         <div>
-                        <h5>Email</h5>
-                        <h3>
+                        <h3>Email</h3>
+                        <h4 style="font-size: 24px;">
                           <a href="mailto:redcoat@curiousredcoat.com">
                             redcoat@curiousredcoat.com
                           </a>
-                        </h3>
+                        </h4>
                        </div>
                       </div>
                     </div>
@@ -267,7 +216,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6">
               <div class="ud-widget">
                 <a href="index.html" class="ud-footer-logo">
-                  <img style="border-radius: 32px" width="82px" src="./assets/images/logo/Wilhelm.png" />
+                  <img style="border-radius: 32px" width="82px" src="../assets/images/logo/Wilhelm.png" />
                 </a>
                 <p class="ud-widget-desc">
                   Curiosity won't kill the Redcoat*
