@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/curibdcy/public_html/
+    - /bin/cp -R * $DEPLOYPATH
